@@ -1,0 +1,17 @@
+.wrapper .regulations {
+  width: 100%;
+}
+
+.wrapper .regulations .header {
+  padding: 20px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  border-bottom: 10px solid yellow;
+}
+
+@media only screen and (max-width:800px){
+  h3 {
+    display: none;
+  }
+}

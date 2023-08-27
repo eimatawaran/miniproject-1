@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Mini Project</title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/customer-list.css">
+  <script src="https://kit.fontawesome.com/757739456c.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  <div class="wrapper">
+      <div class="nav">
+        <div class="sidenav">
+          <a href="#">
+            <img src="/logo.jpg" class="logo-name">
+            <img src="/logo-only.jpg" class="logo-only">
+          </a>
+          <ul class="nav-link">
+            <ul class="menu">
+              <li><a href="main.html"><i class="fa-solid fa-house"></i><p>Home</p></a></li>
+              <li><a href="search-form.html"><i class="fa-solid fa-magnifying-glass"></i><p>Search Customer</p></a></li>
+              <li><a href="add-file.html"><i class="fa-solid fa-file"></i><p>New Customer</p></a></li>
+              <li><a href="customer-list.html"><i class="fa-solid fa-list"></i><p>Customer List</p></a></li>
+              <li><a href="regulations.html"><i class="fa-solid fa-building-columns"></i><p>BSP Regulations</p></a></li>
+              <li><a href="login.html"><i class="fa-solid fa-right-from-bracket"></i><p>Logout</p></a></li>
+              <div class="active"></div>
+            </ul>
+          </ul>
+        </div>
+        </div>
+        <div class="list">
+          <div class="header"><h3>Customer List</h3></div>
+            <div class="sort-form">
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" id="lastname">
+              <label for="firstname">First Name</label>
+              <input type="text" name="firstname" id="firstname">
+              <label for="middlename">Middle Name</label>
+              <input type="text" name="middlename" id="middlename"><br>
+              <label for="sort">Sort by Risk:</label>
+              <select id="sort" name="sort">
+                <option value="low">Low Risk</option>
+                <option value="medium">Medium Risk</option>
+                <option value="High">High Risk</option>
+                <option value="PEP">Politicaly Exposed Person</option>
+                <option value="suspicious">with Suspicious Transaction</option>
+                <option value="covered">with Covered Transaction</option>
+              </select>
+              <button class="sort-btn">Sort</button>
+            </div> 
+        </div>
+    </div>
+
+   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>

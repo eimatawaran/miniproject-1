@@ -1,0 +1,50 @@
+.wrapper .new-file {
+  height: 100vh;
+}
+
+.wrapper .new-file .header {
+  padding: 20px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  border-bottom: 10px solid yellow;
+}
+
+label {
+  width:102px;
+}
+
+input {
+  width: 310px;
+  margin: 2px 0px;
+}
+
+.form-center {
+  padding-top: 50px;
+}
+.container {
+  margin-left: 300px;
+  padding: 50px;
+  background-color: skyblue;
+  width: 1000px;
+  margin-right: 50px;
+  display: flex;
+}
+
+.container .right {
+  margin-left: 50px;
+}
+
+@media only screen and (max-width:600px) {
+  .container {
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width:800px){
+  h3 {
+    display: none;
+  }
+}
+
+

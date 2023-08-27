@@ -1,0 +1,52 @@
+.wrapper .list {
+  height: 100vh;
+}
+
+ .wrapper .list .header {
+  padding: 20px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  border-bottom: 10px solid yellow;
+} 
+
+.list .sort-form {
+  margin-left: 250px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 1100px;
+}
+
+label {
+  width: 100px;
+  margin-left: 20px;
+}
+
+#sort {
+  margin-top: 30px;
+  height: 30px;
+}
+
+.sort-btn {
+  float: right;
+  margin-right: 85px;
+  width:150px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 30px; ;
+}
+
+
+@media only screen and (max-width:600px){
+  .list .sort-form {
+    margin-left: 100px;
+  }
+
+}
+
+@media only screen and (max-width:800px){
+  h3 {
+    display: none;
+  }
+
+}
