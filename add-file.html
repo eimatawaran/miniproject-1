@@ -38,6 +38,12 @@
           <div class="form-center">
             <form class="container">
             <div class="left">
+            <input type="checkbox" name="pep" id="pep">
+            <label for="pep">PEP</label>
+            <input type="checkbox" name="mr" id="mr">
+            <label for="pep">Mr.</label>
+            <input type="checkbox" name="ms" id="ms">
+            <label for="pep">Ms.</label><br>
             <label for="first-name">First Name</label>
             <input type="text" name="first-name" id="first-name"><br>
             <label for="middle-name">Middle Name</label>
@@ -46,6 +52,8 @@
             <input type="text" name="last-name" id="last-name"><br>
             <label for="birth-date">Birth Date</label>
             <input type="text" name="birth-date" id="birth-date"><br>
+            <label for="birth-place">Birth Place</label>
+            <input type="text" name="birth-place" id="birth-place"><br>
             <label for="address">Address</label>
             <input type="text" name="address" id="address"><br>
             <label for="city">City</label>
@@ -53,25 +61,96 @@
             <label for="province">Province</label>
             <input type="text" name="province" id="province"><br>
             <label for="country">Country</label>
-            <input type="text" name="country" id="country"><br>
+            <input type="text" name="country" id="country">
+            <label for="zip">Zip Code</label>
+            <input type="text" name="zip" id="zip"><br>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+            <label for="nationality">Nationality</label>
+            <select id="nationality" name="nationality">
+              <option value="phil">Philippines</option>
+            </select><br><br>
+            <label for="upload">Upload Files</label>
+              <div>
+                <button class="id-front">ID Front</button>
+                <button class="id-back">ID Back</button>
+                <button class="kyc">KYC Picture</button>
+              </div>
+              <div class="box">
+                <div class="box1">ID Front</div>
+                <div class="box1">ID Back</div>
+                <div class="box1">KYC</div>
+              </div>
           </div>
           <div class="right">
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name"><br>
-            <label for="middle-name">Middle Name</label>
-            <input type="text" name="middle-name" id="middle-name"><br>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last-name" id="last-name"><br>
-            <label for="birth-date">Birth Date</label>
-            <input type="text" name="birth-date" id="birth-date"><br>
-            <label for="address">Address</label>
-            <input type="text" name="address" id="address"><br>
-            <label for="city">City</label>
-            <input type="text" name="address" id="city"><br>
-            <label for="province">Province</label>
-            <input type="text" name="province" id="province"><br>
-            <label for="country">Country</label>
-            <input type="text" name="country" id="country"><br>
+            <br>
+            <label for="source-fund">Fund Source</label>
+              <select id="source-fund" name="source-fund">
+                <option value="sal">Salary</option>
+                <option value="comm">Commission</option>
+                <option value="pen">Pension</option>
+                <option value="all">Allowance</option>
+                <option value="gov">Government Aid</option>
+                <option value="bus">Business</option>
+                <option value="ren">Rentals</option>
+                <option value="lps">Loan Proceeds</option>
+                <option value="ppn">Practice of Profession</option>
+                <option value="spy">Sale Property</option>
+                <option value="rem">Remittance Abroad</option>
+              </select><br>
+            <label for="work-nature">Work/Activity</label>
+              <select id="work-nature" name="work-nature">
+                <option value="emp">Employed</option>
+                <option value="s-emp">Self-Employed</option>
+                <option value="u-emp">Unemployed</option>
+                <option value="stu">Student</option>
+                <option value="ret">Retired</option>
+                <option value="hw-shs">Housewife/Stay at Home Spouse</option>
+              </select><br>
+            <label for="job-title">Job Title</label>
+            <input type="text" name="job-title" id="job-title"><br>
+            <label for="comp-name">Company</label>
+            <input type="text" name="comp-name" id="comp-name"><br>
+            <label for="work-address">Work Address</label>
+            <input type="text" name="work-address" id="work-address"><br>
+            <label for="id-type">ID Type</label>
+            <select id="id-type" name="id-type">
+              <option value="umid">UMID</option>
+              <option value="pass">Passport</option>
+              <option value="dl">Driver's License</option>
+              <option value="other-gov">Other Government ID</option>
+              <option value="sch-id">School ID</option>
+              <option value="com-id">Company ID</option>
+              <option value="others">Others</option>
+            </select><br>
+            <label for="id-number">ID Number</label>
+            <input type="text" name="id-number" id="id-number"><br>
+            <label for="expiry">Expiry</label>
+            <input type="date" name="expiry" id="expiry"><br>
+            <label for="risk">Risk Type</label>
+              <select id="risk" name="risk">
+                <option value="low">Low</option>
+                <option value="med">Medium</option>
+                <option value="high">High</option>
+              </select><br>
+              <label for="tran-type">Transaction</label>
+              <select id="tran-type" name="tran-type">
+                <option value="normal">Normal</option>
+                <option value="suspicious">Suspicious Transaction</option>
+                <option value="covered">Covered Transaction</option>
+              </select><br>
+              <div>
+                <button class="save">Save</button>
+              </div>
+              <br>
+              <div class="encoded">
+                <label for="employee">Employee:</label><br>
+                <label for="branch">Branch:</label><br>
+                <label for="date">Date:</label><br>
+              </div>
           </div>
           </form>    
         </div>
