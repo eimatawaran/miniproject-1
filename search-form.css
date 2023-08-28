@@ -11,7 +11,7 @@
 }
 
  .wrapper .search-customer .search-form {
-  padding-left: 150px;
+  padding-left: 170px;
   margin: 30px;
   width: 1200px;
  
@@ -45,7 +45,7 @@ input {
   border: 5px;
   margin: 50px;
   margin-top: 100px;
-  margin-left: 200px;
+  margin-left: 210px;
 }
 
 .row {
@@ -87,12 +87,16 @@ input {
 }
 
 @media only screen and (max-width:600px){
-  .wrapper .search-customer .header {
-    margin-left: 0px;
+  .wrapper .search-customer .search-form {
+    margin-left: 100px;
   }
 }
 
 @media only screen and (max-width:800px){
+  .wrapper .search-customer .search-form {
+    margin-left: 100px;
+  }
+
   h3 {
     display: none;
   }
