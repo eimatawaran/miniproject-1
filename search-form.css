@@ -10,9 +10,10 @@
   border-bottom: 10px solid yellow;
 }
 
- .wrapper .search-customer .search-form {
-  padding-left: 170px;
-  margin: 30px;
+ .search-customer .search-form {
+  margin-left: 250px;
+  margin-top: 20px;
+  padding: 20px;
   width: 1200px;
  
 } 
@@ -33,7 +34,7 @@ input {
   float: right;
   width: 150px;
   height: 40px;
-  margin-right: 70px;
+  margin-right: 175px;
   margin-top: 20px;
   font-weight: bold;
   border-radius: 5px;
@@ -45,12 +46,12 @@ input {
   border: 5px;
   margin: 50px;
   margin-top: 100px;
-  margin-left: 210px;
 }
 
 .row {
   width: auto;
   display: row;
+  margin-left: 230px;
 }
 
 .cell {
@@ -79,17 +80,10 @@ input {
 
 @media only screen and (max-width:600px){
   .wrapper .search-customer .search-form {
+    margin-left: 150px;
+  }
+
+  .row{
     margin-left: 100px;
   }
-}
-
-@media only screen and (max-width:800px){
-  .wrapper .search-customer .search-form {
-    margin-left: 100px;
-  }
-
-  h3 {
-    display: none;
-  }
-
 }

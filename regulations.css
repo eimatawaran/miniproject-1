@@ -10,8 +10,8 @@
   border-bottom: 10px solid yellow;
 }
 
-@media only screen and (max-width:800px){
-  h3 {
-    display: none;
+@media only screen and (max-width:600px){
+  .wrapper .regulations .header {
+    margin-left: 100px;
   }
-}
+} 
