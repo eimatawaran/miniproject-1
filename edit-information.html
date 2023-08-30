@@ -7,7 +7,7 @@
   <title>My Mini Project</title>
   <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/add-file.css">
+  <link rel="stylesheet" href="/edit-information.css">
   <script src="https://kit.fontawesome.com/757739456c.js" crossorigin="anonymous"></script>
   
 </head>
@@ -33,7 +33,7 @@
         </div>
 
         <div class="new-file">
-          <div class="header"><h3>Add New Record</h3></div>
+          <div class="header"><h3>Edit Information</h3></div>
           <div class="main-cont">
           <div class="form-center">
             <form class="container">
@@ -45,27 +45,27 @@
             <input type="checkbox" name="ms" id="ms">
             <label for="pep">Ms.</label><br>
             <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name"><br>
+            <input type="text" name="first-name" id="first-name" placeholder="Elreen"><br>
             <label for="middle-name">Middle Name</label>
-            <input type="text" name="middle-name" id="middle-name"><br>
+            <input type="text" name="middle-name" id="middle-name" placeholder="Imperial"><br>
             <label for="last-name">Last Name</label>
-            <input type="text" name="last-name" id="last-name"><br>
+            <input type="text" name="last-name" id="last-name" placeholder="Matawaran"><br>
             <label for="birth-date">Birth Date</label>
-            <input type="date" name="birth-date" id="birth-date"><br>
+            <input type="date" name="birth-date" id="birth-date" placeholder="June 21, 1989"><br>
             <label for="birth-place">Birth Place</label>
-            <input type="text" name="birth-place" id="birth-place"><br>
+            <input type="text" name="birth-place" id="birth-place" placeholder="Bataan"><br>
             <label for="address">Address</label>
-            <input type="text" name="address" id="address"><br>
+            <input type="text" name="address" id="address" placeholder="Kassel City Subd."><br>
             <label for="city">City</label>
-            <input type="text" name="address" id="city"><br>
+            <input type="text" name="address" id="city" placeholder="Tacloban City"><br>
             <label for="province">Province</label>
-            <input type="text" name="province" id="province"><br>
+            <input type="text" name="province" id="province" placeholder="Leyte"><br>
             <label for="country">Country</label>
-            <input type="text" name="country" id="country">
+            <input type="text" name="country" id="country" placeholder="Philippines">
             <label for="zip">Zip Code</label>
-            <input type="text" name="zip" id="zip"><br>
+            <input type="text" name="zip" id="zip" placeholder="6500"><br>
             <label for="gender">Gender</label>
-            <select id="gender" name="gender">
+            <select id="gender" name="gender" placeholder="Female">
               <option value="female">Female</option>
               <option value="male">Male</option>
             </select>
@@ -111,11 +111,11 @@
                 <option value="hw-shs">Housewife/Stay at Home Spouse</option>
               </select><br>
             <label for="job-title">Job Title</label>
-            <input type="text" name="job-title" id="job-title"><br>
+            <input type="text" name="job-title" id="job-title" placeholder="Manager"><br>
             <label for="comp-name">Company</label>
-            <input type="text" name="comp-name" id="comp-name"><br>
+            <input type="text" name="comp-name" id="comp-name" placeholder="Tacloban Noahs Ark Pawnshop"><br>
             <label for="work-address">Work Address</label>
-            <input type="text" name="work-address" id="work-address"><br>
+            <input type="text" name="work-address" id="work-address" placeholder="Tacloban City"><br>
             <label for="id-type">ID Type</label>
             <select id="id-type" name="id-type">
               <option value="umid">UMID</option>
@@ -127,7 +127,7 @@
               <option value="others">Others</option>
             </select><br>
             <label for="id-number">ID Number</label>
-            <input type="text" name="id-number" id="id-number"><br>
+            <input type="text" name="id-number" id="id-number" placeholder="123456789012"><br>
             <label for="expiry">Expiry</label>
             <input type="date" name="expiry" id="expiry"><br>
             <label for="risk">Risk Type</label>
@@ -142,19 +142,18 @@
                 <option value="suspicious">Suspicious Transaction</option>
                 <option value="covered">Covered Transaction</option>
               </select><br>
+              <div>
+                <a class="btn btn-secondary" href="search-result.html" role="button">Close</a>
+                <a class="btn btn-secondary" href="add-file.html" role="button">Save</a>
+              </div>
               <br>
               <div class="encoded">
                 <p>Encoded / Updated</p>
-                <label for="employee">Employee:</label><br>
-                <label for="branch">Branch:</label><br>
-                <label for="date">Date:</label><br>
+                <label for="employee">Employee:<span>Joiyce Yamon</span></label><br>
+                <label for="branch">Branch:<span>Main Branch</span></label><br>
+                <label for="date">Date:<span>August 20,2023</span></label><br>
               </div>
-              <div>
-                <a class="btn btn-secondary" href="search-form.html" role="button">Close</a>
-                <a class="btn btn-secondary" href="add-file.html" role="button">Save</a>
-              </div>
-              
-          </div>
+            </div>
           </form>    
         </div>
       </div>

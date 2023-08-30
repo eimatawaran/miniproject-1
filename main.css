@@ -15,12 +15,21 @@
   text-align: center;
   width: 1200px;
 }
+.info {
+  padding-top: 100px;
+  padding-left: 100px; 
+}
+
+h3 {
+  color: royalblue;
+  font-weight: bold;
+}
 
 .branch-info {
   display: table;
   width: auto;
   border: 5px;
-  margin-left:400px;
+  margin-left:300px;
   margin-top:50px;
 }
 

@@ -7,7 +7,7 @@
   <title>My Mini Project</title>
   <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/search-form.css">
+  <link rel="stylesheet" href="/search-result.css">
   <script src="https://kit.fontawesome.com/757739456c.js" crossorigin="anonymous"></script>
   
 </head>
@@ -33,20 +33,31 @@
         </div>
       </div>
       <div class="search-customer">
-        <div class="header"><h3>Search Customer</h3></div>
+        <div class="header"><h3>Search Result</h3></div>
           <div class="search-form">
             <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" id="lastname">
+            <input type="text" name="lastname" id="lastname" placeholder="Matawaran">
             <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname">
+            <input type="text" name="firstname" id="firstname" placeholder="Elreen">
             <label for="middlename">Middle Name</label>
-            <input type="text" name="middlename" id="middlename">
-            <div class="buttons">
-              <a class="btn btn-primary" href="main.html" role="button">Close</a>
-              <a class="btn btn-primary" href="search-result.html" role="button">Search</a>
+            <input type="text" name="middlename" id="middlename" placeholder="Imperial">
+            <a class="btn btn-primary" href="search-result.html" role="button">Search</a>
           </div>
+          <div class="search-result">
+            <div class="row">
+              <div class="cell lastname">Last Name</div>
+              <div class="cell firstname">First Name</div>
+              <div class="cell middlename">Middle Name</div>
+              <div class="cell birthday">Birth Date</div>
+            </div>
+            <div class="row">
+              <div class="cell result">Matawaran</div>
+              <div class="cell result">Elreen</div>
+              <div class="cell result">Imperial</div>
+              <div class="cell result">June 21, 1989</div>
           </div>
-          
+          <a class="btn btn-secondary" href="search-form.html" role="button">Close</a>
+          <a class="btn btn-secondary" href="edit-information.html" role="button">Edit Information</a>
         </div>
       </div> 
     </div>

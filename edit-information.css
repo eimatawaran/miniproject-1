@@ -74,11 +74,12 @@ select {
 }
 
 .btn-secondary {
-  float: right;
-  margin: 20px 10px;
-  border-radius: 5px;
   background-color: royalblue;
   color: white;
+  width: 100px;
+  float: right;
+  margin-top: 230px;
+  margin-left: 10px
 }
 
 .btn-secondary:hover {
@@ -93,37 +94,37 @@ select {
 }
 
 .box1, .box2, .box3{
-  margin: 5px;
+ margin: 5px;
+ border-style: solid;
+ width: 120px;
+ height: 150px;
+ color: blue;
+}
+
+.encoded {
+  margin-top: 80px;
   border-style: solid;
-  width: 120px;
-  height: 150px;
+  border-color: blue;
+  height: 120px;
+  padding: 12px;
+}
+
+.encoded label {
+  width: auto;
   color: blue;
- }
- 
- .encoded {
-   margin-top: 80px;
-   border-style: solid;
-   border-color: blue;
-   height: 120px;
-   padding: 12px;
- }
- 
- .encoded label {
-   width: auto;
-   color: blue;
- }
- 
- span {
-   color: black;
- }
- 
- 
- 
- .encoded p {
-   margin: 0;
-   font-weight: bold;
-   color: blue;
- }
+}
+
+span {
+  color: black;
+}
+
+
+
+.encoded p {
+  margin: 0;
+  font-weight: bold;
+  color: blue;
+}
 
 
 @media only screen and (max-width:600px) {

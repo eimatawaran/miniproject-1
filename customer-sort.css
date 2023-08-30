@@ -11,7 +11,7 @@
 } 
 
 .list .sort-form {
-  margin-left: 300px;
+  margin-left: 200px;
   margin-top: 20px;
   padding-top: 50px;
   padding-right: 120px;
@@ -41,6 +41,30 @@ label {
 .btn-secondary:hover {
   background-color: blue;
   color: black;
+}
+
+.search-result {
+  display: table;
+  border: 5px;
+  margin: 50px;
+  margin-top: 50px;
+  margin-left: 250px;
+  padding: 20px 50px;
+  
+}
+
+.row {
+  width: auto;
+  display: row;
+}
+
+.cell {
+  text-align: center;
+  width: 220px;
+  height: 30px;
+  display: table-column;
+  border: 1px solid black;
+  font-weight: bold;
 }
 
 

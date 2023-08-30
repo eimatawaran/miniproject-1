@@ -1,8 +1,8 @@
-.wrapper .regulations {
-  width: 100%;
-}
+.wrapper .regulation {
+  height: 100vh;
 
-.wrapper .regulations .header {
+}
+.wrapper .regulation .header {
   padding: 20px;
   background-color: royalblue;
   color: white;
@@ -10,8 +10,31 @@
   border-bottom: 10px solid yellow;
 }
 
-@media only screen and (max-width:600px){
-  .wrapper .regulations .header {
-    margin-left: 100px;
-  }
+ .regulation .regulation-page {
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 1100px; 
 } 
+
+.container-fluid {
+  display: flex;
+  
+}
+
+.container-fluid img {
+  width: 500px;
+  height: 800px;
+  margin-top: 100px;
+  margin-left: 25px;
+  padding-right: 50px;
+  border-style: double;
+  border-color: royalblue;
+}
+
+.col-12 {
+  font-size: 25px;
+  padding: 50px;
+}
+
+  
+
