@@ -77,4 +77,9 @@ label {
     margin-left: 200px;
   }
 
+  .cell {
+    width: 150px;
+    height: 30px;
+  }
+
 }
